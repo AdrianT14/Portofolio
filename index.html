@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+            
+            <div class="menu">
+                <a href="#hero">Home</a>
+                <a href="#about">About me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <nav class="mobile-menu">
+        <a class="mobile-links" href="#hero">Home</a>
+        <a class="mobile-links" href="#about">About me</a>
+        <a class="mobile-links" href="#projects">Projects</a>
+        <a class="mobile-links" href="#contact">Contact</a>
+    </nav>
+
+    <main class="hero" id="hero">
+        <div class="hero-text">
+            <h1 class="glitch"><span aria-hidden="true">Adrian Trifan</span>Adrian Trifan<span aria-hidden="true">Adrian Trifan</span></h1>
+            <p data-text="Self-Taught Web Developer">Self-Taught Web Developer</p>
+        </div>
+        
+    </main>
+    <section class="about-section" id="about">
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                Ullam accusamus saepe iure fuga, animi asperiores labore <br>
+                at ab quae perferendis, autem vero eos aut voluptatibus <br>
+                recusandae atque expedita aliquam natus.
+           </p>
+           <div class="buttons">
+               <a href="" >View CV</a>
+               <a href="">Download CV</a>
+           </div>
+        </div>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2>My work so far...</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="assets/weather.png" alt="WeatherApp">
+                <h3>WeatherApp</h3>
+                <p class="card-text">Weather App using HTML, CSS, JavaScript, with OpenWeather API</p>
+                <hr/>
+                <a href="" class="link">GitHub Link</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/calculator.png" alt="Simple Calculator">
+                <h3>Simple Calculator</h3>
+                <p class="card-text">A simple calculator using Eval function</p>
+                <hr/>
+                <a href="" class="link">GitHub Link</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/beatbox.png" alt="LaunchPad">
+                <h3>LaunchPad</h3>
+                <p class="card-text">Press the keys on your keyboard to create beats.</p>
+                <hr/>
+                <a href="" class="link">GitHub Link</a>
+            </div>
+            <div class="project-card">
+                <img src="" alt="Netflix Clone">
+                <h3>WeatherApp</h3>
+                <p class="card-text">Still in progress...</p>
+                <hr/>
+                <a href="" class="link">GitHub Link</a>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="media">
+            <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="35" height="35" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </div>
+            <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="35" height="35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </div>
+            <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="35" height="35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        jQuery('.mobile-links').click(() =>{
+            jQuery('.mobile-menu').removeClass('.is-clicked')
+        });
+    </script>
+</body>
+</html>
