@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #252839;
+}
+
+.cv img {
+  height: 400px;
+  width: 300px;
+}
